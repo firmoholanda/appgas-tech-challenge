@@ -41,17 +41,17 @@ $ cd appgas-tech-challenge
 
 install dependencies:
 ```
-$ npm i
+$ bundle install
 ```
 
-start server:
+run rspec:
 ```
-$ node app.js
+$ rspec spec
 ```
 
-visit this link in your browser:
+run aplication:
 ```
-$ http://localhost:3001/
+$ ruby ./app/app_gas.rb
 ```
 
 
