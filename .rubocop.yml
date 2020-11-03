@@ -9,7 +9,7 @@ AllCops:
 
 Metrics/ModuleLength:
   Max: 150
-Metrics/LineLength:
+Layout/LineLength:
   Max: 150
 Metrics/MethodLength:
   Include: ["app/controllers/*"]
@@ -37,7 +37,7 @@ Style/CaseEquality:
 Style/ConditionalAssignment:
   Enabled: false
 
-Layout/AlignHash:
+Layout/HashAlignment:
   EnforcedColonStyle: key
 Layout/ExtraSpacing:
   AllowForAlignment: false
