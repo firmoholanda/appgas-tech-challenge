@@ -1,3 +1,6 @@
+require 'json'
+require 'date'
+
 class AppGas
   attr_accessor :delivery_date, :shipments, :supplier, :items
   attr_reader :products
