@@ -1,0 +1,7 @@
+product_name,supplier,delivery_times,in_stock
+caneca_preta,’Na Moda’,'{ "ce": 1, "sp": 6, "am": 2}',3
+blusa_azul,’Best Tshirts’’,'{ "ce": 1, "sp": 5, "am": 2}',10
+caneca_branca,’Loja Mundial’,'{ "ce": 1, "sp": 8, "am": 2}',3
+caneca_preta,’Loja Mundial’,'{ "ce": 1, "sp": 7, "am": 2}',4
+blusa_rosa,’Na Moda’,'{ "ce": 1, "sp": 6, "am": 2}',8
+blusa_rosa,’Blusas Lindas Para Você’,'{ "ce": 1, "sp": 3, "am": 2}',2
