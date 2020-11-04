@@ -38,7 +38,7 @@ class AppGas
   def as_json(_options = {})
     {
       delivery_date: @shipments.map(&:delivery_date).max,
-      shipments: @shipments.to_s
+      shipments: @shipments.map { |s| { supplier: s.supplier, delivery_date: s.delivery_date, items: { title: s.items.title, count: s.items.count } } }
     }
   end
 
@@ -68,6 +68,7 @@ class AppGas
 
       line_n += 1
     end
+
     create_shipments
   end
 
@@ -80,6 +81,6 @@ class AppGas
   end
 
   def print_json(*options)
-    p to_json(*options)
+    puts to_json(*options)
   end
 end

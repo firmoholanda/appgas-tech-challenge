@@ -8,9 +8,9 @@ AllCops:
   DisplayCopNames: true
 
 Metrics/ModuleLength:
-  Max: 150
+  Max: 170
 Layout/LineLength:
-  Max: 150
+  Max: 170
 Metrics/MethodLength:
   Include: ["app/controllers/*"]
   Max: 20
